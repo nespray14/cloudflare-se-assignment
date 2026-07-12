@@ -12,8 +12,6 @@ The goal of this project is to provide a highly secure environment without compr
   The `/secure` route requires IdP authentication. The Worker extracts identity headers (`Cf-Access-Authenticated-User-Email` and `Cf-Ipcountry`) to personalize the HTML response.
 - **Routing & R2 Storage:** 
   Clicking the country link dynamically routes the user to `/secure/[COUNTRY_CODE]`. The Worker securely fetches the flag image from an **R2 Bucket**.
-
-## Repository Structure
 How to Test
 1.Navigate to the secure portal: https://tunnel.nespray14.org/secure
 
@@ -22,6 +20,9 @@ How to Test
 3.Observe the dynamically generated HTML showing the user identity and timestamp.
 
 4.Click the Country Code link to retrieve the flag directly from R2 Storage.
+
+## Repository Structure
+
 
 ```text
 /
