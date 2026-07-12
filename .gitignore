@@ -1,0 +1,8 @@
+secure-worker/node_modules/
+secure-worker/.wrangler/
+__pycache__/
+*.pyc
+.env
+.dev.vars
+TH.png
+secure-worker/wrangler.toml.bck
