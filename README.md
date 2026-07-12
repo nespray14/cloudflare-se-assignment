@@ -14,6 +14,14 @@ The goal of this project is to provide a highly secure environment without compr
   Clicking the country link dynamically routes the user to `/secure/[COUNTRY_CODE]`. The Worker securely fetches the flag image from an **R2 Bucket**.
 
 ## Repository Structure
+How to Test
+1.Navigate to the secure portal: https://tunnel.nespray14.org/secure
+
+2.Authenticate using your authorized email (OTP).
+
+3.Observe the dynamically generated HTML showing the user identity and timestamp.
+
+4.Click the Country Code link to retrieve the flag directly from R2 Storage.
 
 ```text
 /
@@ -26,11 +34,4 @@ The goal of this project is to provide a highly secure environment without compr
 
 
 
-How to Test
-1.Navigate to the secure portal: https://tunnel.nespray14.org/secure
 
-2.Authenticate using your authorized email (OTP).
-
-3.Observe the dynamically generated HTML showing the user identity and timestamp.
-
-4.Click the Country Code link to retrieve the flag directly from R2 Storage.
